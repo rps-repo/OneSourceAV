@@ -1,0 +1,14 @@
+{
+    "name": "rps-repo/onesourceav",
+    "description": "Package generated from https://partnerdev2-uat.hostedtax.thomsonreuters.com/avs/sav.wsdl using wsdltophp/packagegenerator",
+    "require": {
+        "php": ">=5.3.3",
+        "ext-soap": "*",
+        "wsdltophp/packagebase": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Onesourceav\\": "./src/"
+        }
+    }
+}
